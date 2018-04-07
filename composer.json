@@ -24,7 +24,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "tutor_Van\\": "app/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {
