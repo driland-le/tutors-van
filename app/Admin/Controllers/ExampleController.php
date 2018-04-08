@@ -1,12 +1,12 @@
 <?php
 
-namespace tutor_Van\Admin\Controllers;
+namespace App\Admin\Controllers;
 
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Layout\Content;
-use tutor_Van\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Encore\Admin\Controllers\ModelForm;
 
 class ExampleController extends Controller

@@ -5,17 +5,17 @@ return [
     /*
      * Laravel-admin name.
      */
-    'name' => 'muilv-admin',
+    'name' => 'Van-admin',
 
     /*
      * Logo in admin panel header.
      */
-    'logo' => '<b>Mui le van</b> admin',
+    'logo' => '<b>Van</b> admin',
 
     /*
      * Mini-logo in admin panel header.
      */
-    'logo-mini' => '<b>Mui</b>',
+    'logo-mini' => '<b>Van</b>',
 
     /*
      * Route configuration.
