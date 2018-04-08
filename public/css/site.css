@@ -1,0 +1,105 @@
+html, body {
+        background-color: #fff;
+        height: 100vh;
+        margin: 0;
+        color: #686f75;
+        font-family: "lato", sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 0.015em;
+        line-height: 1.5;
+    }
+
+    .full-height {
+        height: 100vh;
+    }
+
+    .flex-center {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .position-ref {
+        position: relative;
+    }
+
+    .top-right {
+        position: absolute;
+        right: 10px;
+        top: 18px;
+    }
+
+    .content {
+        text-align: center;
+        background-color: #fff;
+    }
+
+    .title {
+        font-size: 84px;
+    }
+
+    .links > a {
+        color: #636b6f;
+        padding: 0 25px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .m-b-md {
+        margin-bottom: 30px;
+    }
+    .contr {
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .menu-left {
+        text-align: left;
+        width: 25%;
+    }
+    .frame-area {
+        /*width: 1000px;*/
+        margin: auto;
+    }
+
+    .banner {
+        background: url('images/banner/education-hub-banner-3.jpg');
+    }
+    .class-info{
+        padding: 10px 0 0 10px;
+    }
+    .class-note{
+        padding: 10px;
+    }
+    #to_top{
+        display: inline;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+    .class-row-info {
+
+    }
+    .desc-cell-info {
+        width: 94%; 
+        border: 1px solid #7cbdff; 
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .desc-cell-code {
+        background: linear-gradient(141deg, #2388b0, #3ac);
+        padding: 3px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .header__nav-button{
+        color: #fff;
+        background-color: #79cbe3;
+        border-color: #79cbe3;
+        min-height: auto;
+    }

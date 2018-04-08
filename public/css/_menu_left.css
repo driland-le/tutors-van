@@ -1,0 +1,49 @@
+.vertical-menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #195a72;
+  line-height: 30px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.vertical-menu li a{
+  width: 100%;
+  /*border-bottom: 1px solid #d6d6d6;*/
+  background: url(../images/arrow.png) 5px 11px no-repeat;
+  font-size: 1em;
+  color: #7ecce2;
+  padding: 8px 0 8px 20px;
+  display: inline-blo
+  border-bottom: 0;
+  font-weight: 300;
+  align-items: center;
+  position: relative;
+}
+.panel-body {
+  padding: 10px;
+  /*border: 1px solid #e1e1e1;*/
+}
+.panel-heading {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #195a72;
+  border-radius: 2px;
+}
+.panel {
+  color: #7ecce2;
+  background: #195a72 !important;
+}
+.nagivagtion-left {
+  text-align: left;
+  background: #195a72;
+}
+.row-line-hr-left-menu {
+  border: 0.5px solid;
+  margin-left: 21px;
+}
+.panel-title {
+  margin-top: 10px !important;
+  font-size: 15px !important;
+}
