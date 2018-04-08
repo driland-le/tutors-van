@@ -10,22 +10,22 @@
         <div class="panel-body">
           <ul class="vertical-menu">
             <li>
-              <a href="https://giasubaobai.com/dang-ky-tim-gia-su.html" title="Đăng ký tìm gia sư" class="">
+              <a href="/dang-ky-tim-gia-su.html" title="Đăng ký tìm gia sư" class="">
               Đăng ký tìm gia sư </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/gia-su-hien-co" title="Gia sư hiện có" class="">
+              <a href="/gia-su-hien-co" title="Gia sư hiện có" class="">
               Gia sư hiện có </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/-.html" title="Học phí tham khảo" class="">
+              <a href="/-.html" title="Học phí tham khảo" class="">
               Học phí tham khảo </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/-.html" title="Phương pháp giảng dạy" class="">
+              <a href="/-.html" title="Phương pháp giảng dạy" class="">
               Phương pháp giảng dạy </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
@@ -40,27 +40,27 @@
         <div class="panel-body">
           <ul class="vertical-menu">
             <li>
-              <a href="https://giasubaobai.com/lop-day-hien-co" title="Lớp dạy hiện có" class="">
+              <a href="/lop-day-hien-co" title="Lớp dạy hiện có" class="">
               Lớp dạy hiện có </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/dang-ky-lam-gia-su.html" title="Đăng ký làm gia sư" class="">
+              <a href="/dang-ky-lam-gia-su.html" title="Đăng ký làm gia sư" class="">
               Đăng ký làm gia sư </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/133-noi-quy-nhan-lop-gia-su-bao-bai.html" title="Nội quy nhận lớp" class="">
+              <a href="/133-noi-quy-nhan-lop-gia-su-bao-bai.html" title="Nội quy nhận lớp" class="">
               Nội quy nhận lớp </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/tin-gia-su" title="Tài khoản giao dịch" class="">
+              <a href="/tin-gia-su" title="Tài khoản giao dịch" class="">
               Tài khoản giao dịch </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/lien-he.html" title="Liên hệ" class="">
+              <a href="/lien-he.html" title="Liên hệ" class="">
               Liên hệ </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
@@ -74,27 +74,27 @@
         <div class="panel-body">
           <ul class="vertical-menu">
             <li>
-              <a href="https://giasubaobai.com/de-thi-thu-thpt-quoc-gia" title="Đề thi thử THPT Quốc gia" class="">
+              <a href="/de-thi-thu-thpt-quoc-gia" title="Đề thi thử THPT Quốc gia" class="">
               Đề thi thử THPT Quốc gia </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/thu-vien-bai-giang" title="Thư viện bài giảng" class="">
+              <a href="/thu-vien-bai-giang" title="Thư viện bài giảng" class="">
               Thư viện bài giảng </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/phu-huynh-can-biet" title="Phụ huynh cần biết" class="">
+              <a href="/phu-huynh-can-biet" title="Phụ huynh cần biết" class="">
               Phụ huynh cần biết </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/tuyen-dung" title="Tuyển dụng" class="">
+              <a href="/tuyen-dung" title="Tuyển dụng" class="">
               Tuyển dụng </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li>
-              <a href="https://giasubaobai.com/thong-bao" title="Thông báo" class="">
+              <a href="/thong-bao" title="Thông báo" class="">
               Thông báo </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
