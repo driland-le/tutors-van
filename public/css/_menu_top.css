@@ -215,11 +215,28 @@
   -ms-user-select: none;
   user-select: none;
   white-space: nowrap;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2);
 }
 .dc-btn--primary {
     background-color: #104a5b;
     border-color: #104a5b;
     color: #fff;
+}
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 800;
+  font-size: 14px;
+  color: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2)
 }
 .menu_top {
   background: #3db2e1;
