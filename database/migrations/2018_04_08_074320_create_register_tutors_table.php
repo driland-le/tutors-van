@@ -18,9 +18,9 @@ class CreateRegisterTutorsTable extends Migration {
 				$table->string('tutor_phone');
 				$table->string('tutors_address');
 				// $table->string('type');
-				$table->int('class_type_id');
+				$table->integer('class_type_id');
 				$table->string('subject');
-				$table->int('student_numbers');
+				$table->integer('student_numbers');
 				$table->string('salary_expect');
 				$table->string('time');
 				$table->timestamps();

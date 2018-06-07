@@ -13,7 +13,7 @@ class CreateClassesTable extends Migration {
 	public function up() {
 		Schema::create('classes', function (Blueprint $table) {
 				$table->increments('id');
-				$table->string('class_id')->unique();
+				$table->string('class_id', 150)->unique();
 				$table->string('subject_id');
 				$table->string('address');
 				$table->string('salary');
