@@ -48,7 +48,8 @@
   font-size: 15px !important;
 }
 .vertical-menu li:hover {
-  background: linear-gradient(141deg, #2388b0, #3ac);
+  /*background: linear-gradient(141deg, #2388b0, #3ac);*/
+  background-color:rgba(235,244,247,0.1);color:#fff
   border-radius: 1px solid; 
 }
 .vertical-menu li a:hover {

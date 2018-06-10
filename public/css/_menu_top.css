@@ -199,6 +199,10 @@
     border-color: #ffc844;
     color: #3d4251;
 }
+.dc-btn--secondary:hover {
+  background-color:#fbe28d;border-color:#fbe28d;color:#3d4251
+}
+
 .dc-btn {
   border: 1px solid transparent;
   border-radius: 4px;
@@ -223,6 +227,11 @@
     border-color: #104a5b;
     color: #fff;
 }
+
+.dc-btn--primary:hover{
+  background-color:#195a72;border-color:#195a72;color:#fff
+}
+
 .top {
   position: fixed;
   top: 0;
@@ -240,4 +249,14 @@
 }
 .menu_top {
   background: #3db2e1;
+}
+a {
+  text-decoration: none !important;
+  cursor:pointer;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.nav-dropdown__link:hover{
+  background-color:rgba(235,244,247,0.1);color:#fff
 }
