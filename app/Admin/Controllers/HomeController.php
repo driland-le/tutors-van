@@ -3,10 +3,10 @@
 namespace App\Admin\Controllers;
 
 use App\Http\Controllers\Controller;
-
+use Encore\Admin\Controllers\Dashboard;
 use Encore\Admin\Facades\Admin;
-
 use Encore\Admin\Layout\Content;
+use Encore\Admin\Layout\Row;
 
 class HomeController extends Controller {
 	public function index() {
@@ -15,7 +15,7 @@ class HomeController extends Controller {
 				$content->header('Dashboard');
 				$content->description('Description...');
 
-				// 	$content->row(Dashboard::title());
+				$content->row(Dashboard::title());
 
 				// 	$content->row(function (Row $row) {
 

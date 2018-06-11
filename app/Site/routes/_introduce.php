@@ -7,7 +7,6 @@ Router::group([
 	],
 
 function (Router $route) {
-		$route->get('/', 'HomeController@index');
-		// $route->get('/introduce', 'IntroduceController@index');
+		$route->get('giới-thiệu-về-trung-tâm.html', 'IntroduceController@index')->name('site.introduce');
 	}
 );
