@@ -12,6 +12,6 @@ Route::group([
 
 function (Router $router) {
 		$router->get('/', 'HomeController@index');
-		$router->resource('introduce', 'IntroduceController');
+		$router->resource('/introduce', IntroduceController::class );
 	}
 );

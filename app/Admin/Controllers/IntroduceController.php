@@ -3,7 +3,7 @@
 namespace App\Admin\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Introduce;
+use App\Models\Introduce;
 use Encore\Admin\Controllers\ModelForm;
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Form;
@@ -20,25 +20,31 @@ class IntroduceController extends Controller {
 	 */
 	public function index() {
 		return Admin::content(function (Content $content) {
+
 				$content->header('Introduce');
-				$content->description('description');
-				$content->body(
-					$this->form()->edit()
+				$content->description('Introduce Page Manager');
+				$content->breadcrumb(
+					['text' => 'Dashboard', 'url' => '/'],
+					['text' => 'User management', 'url' => '/auth/users'],
+					['text' => 'Introduce']
 				);
-				// $grid->title('title');
-				// $grid->created_at();
-				// $grid->updated_at();
+				$content->body($this->grid());
 			});
 	}
 
 	/**
 	 * Edit interface.
 	 *
+	 * @param $id
 	 * @return Content
 	 */
-	public function edit() {
-		return Admin::content(function (Content $content) {
+	public function edit($id) {
+		return Admin::content(function (Content $content) use ($id) {
 
+				$content->header('Introduce');
+				$content->description('Introduce Page Manager');
+
+				$content->body($this->form()->edit($id));
 			});
 	}
 
@@ -50,8 +56,8 @@ class IntroduceController extends Controller {
 	public function create() {
 		return Admin::content(function (Content $content) {
 
-				$content->header('header');
-				$content->description('description');
+				$content->header('Introduce');
+				$content->description('Introduce Page Manager');
 
 				$content->body($this->form());
 			});
@@ -64,8 +70,10 @@ class IntroduceController extends Controller {
 	 */
 	protected function grid() {
 		return Admin::grid(Introduce::class , function (Grid $grid) {
-
-				$grid->id('ID')->sortable();
+				$grid->id('Id');
+				$grid->title('Title')->sortable();
+				$grid->summary('Summary');
+				$grid->description('Description');
 
 				$grid->created_at();
 				$grid->updated_at();
@@ -79,13 +87,9 @@ class IntroduceController extends Controller {
 	 */
 	protected function form() {
 		return Admin::form(Introduce::class , function (Form $form) {
-
-				$form->display('title', 'Title');
-				$form->display('summary', 'Summary');
-				$form->display('description', 'Description');
-
-				$form->display('created_at', 'Created At');
-				$form->display('updated_at', 'Updated At');
+				$form->text('title', 'Title')->rules('required|min:10');
+				$form->textarea('summary', 'Summary');
+				$form->ckeditor('description', 'Description');
 			});
 	}
 }

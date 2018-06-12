@@ -12,9 +12,11 @@ class CreateIntroducesTable extends Migration {
 	 */
 	public function up() {
 		Schema::create('introduces', function (Blueprint $table) {
+				$table->increments('id');
 				$table->string('title');
 				$table->string('summary');
 				$table->text('description');
+				$table->boolean('activate')->nullable()->default(false);
 				$table->text('opts_json')->nullable();
 				$table->timestamps();
 			});
