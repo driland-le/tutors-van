@@ -15,17 +15,17 @@
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li nav-dropdown__link>
-              <a href="/gia-su-hien-co" title="Gia sư hiện có" class="">
+              <a href="/gia-su-hien-co.html" title="Gia sư hiện có" class="">
               Gia sư hiện có </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li nav-dropdown__link>
-              <a href="/-.html" title="Học phí tham khảo" class="">
+              <a href="/hoc-phi.html" title="Học phí tham khảo" class="">
               Học phí tham khảo </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li class="nav-dropdown__link">
-              <a href="/-.html" title="Phương pháp giảng dạy" class="">
+              <a href="/phuong-phap-giang-day.html" title="Phương pháp giảng dạy" class="">
               Phương pháp giảng dạy </a>
               <div class="row-line-hr-left-menu"></div>
             </li>
@@ -50,7 +50,7 @@
               <div class="row-line-hr-left-menu"></div>
             </li>
             <li class="nav-dropdown__link">
-              <a href="/133-noi-quy-nhan-lop-gia-su-bao-bai.html" title="Nội quy nhận lớp" class="">
+              <a href="/noi-quy-nhan-lop-trung-tam-gia-su.html" title="Nội quy nhận lớp" class="">
               Nội quy nhận lớp </a>
               <div class="row-line-hr-left-menu"></div>
             </li>

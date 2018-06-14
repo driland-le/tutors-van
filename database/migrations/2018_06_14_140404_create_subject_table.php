@@ -4,20 +4,18 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateLetersTable extends Migration {
+class CreateSubjectTable extends Migration {
 	/**
 	 * Run the migrations.
 	 *
 	 * @return void
 	 */
 	public function up() {
-		Schema::create('leters', function (Blueprint $table) {
+		Schema::create('subject', function (Blueprint $table) {
 				$table->increments('id');
-				$table->string('title');
-				$table->string('summary');
-				$table->text('description');
-				$table->text('opts_json')->nullable();
-				$table->timestamps();
+				$table->string('title', 255);
+				$table->string('note')->nullable();
+				$table->boolean('activate')->nullable()->default(false);
 			});
 	}
 
@@ -27,6 +25,6 @@ class CreateLetersTable extends Migration {
 	 * @return void
 	 */
 	public function down() {
-		Schema::dropIfExists('leters');
+		Schema::dropIfExists('subject');
 	}
 }

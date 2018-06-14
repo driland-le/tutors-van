@@ -26,7 +26,7 @@
 </style>
 
 <div class="title">
-    Gia su su pham tp.H C M - admin
+    The tutors - Sai Gon
 </div>
 <div class="links">
     <a href="http://giasusuphamtphcm.com/"  target="_blank">Web site</a>

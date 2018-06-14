@@ -12,6 +12,11 @@ Route::group([
 
 function (Router $router) {
 		$router->get('/', 'HomeController@index');
-		$router->resource('/introduce', IntroduceController::class );
+		$router->resource('introduce', IntroduceController::class );
+		$router->resource('rule-get-class', RuleGetClassController::class );
+		$router->resource('subject', SubjectController::class );
+		$router->resource('class', ClassController::class );
+		$router->resource('group-level', GroupLevelController::class );
+		$router->resource('level', LevelController::class );
 	}
 );
