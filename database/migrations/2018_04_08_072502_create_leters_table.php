@@ -16,7 +16,7 @@ class CreateLetersTable extends Migration {
 				$table->string('title');
 				$table->string('summary');
 				$table->text('description');
-				$table->text('opts_json');
+				$table->text('opts_json')->nullable();
 				$table->timestamps();
 			});
 	}

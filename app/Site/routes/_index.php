@@ -8,6 +8,6 @@ Router::group([
 
 function (Router $route) {
 		$route->get('/', 'HomeController@index');
-		// $route->get();''
+		// $route->get('/introduce', 'IntroduceController@index');
 	}
 );

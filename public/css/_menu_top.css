@@ -46,7 +46,7 @@
 #cssmenu {
   width: auto;
   line-height: 1;
-  padding-left: 130px;
+  padding: 0 10% 0 10%;
 }
 #cssmenu > ul {
   background: #3db2e1;

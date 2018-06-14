@@ -14,7 +14,8 @@ class CreateClassesTable extends Migration {
 		Schema::create('classes', function (Blueprint $table) {
 				$table->increments('id');
 				$table->string('class_id', 150)->unique();
-				$table->string('subject_id');
+				$table->integer('subject_id');
+				$table->integer('group_level_id');
 				$table->string('address');
 				$table->string('salary');
 				$table->string('time_of_week');
@@ -22,7 +23,8 @@ class CreateClassesTable extends Migration {
 				$table->string('requirement_for_tutor');
 				$table->string('contact');
 				$table->string('status');
-				$table->text('opts_json');
+				$table->boolean('activate')->nullable()->default(false);
+				$table->text('opts_json')->nullable();
 				$table->timestamps();
 			});
 	}

@@ -16,7 +16,8 @@ class CreateIntroducesTable extends Migration {
 				$table->string('title');
 				$table->string('summary');
 				$table->text('description');
-				$table->text('opts_json');
+				$table->boolean('activate')->nullable()->default(false);
+				$table->text('opts_json')->nullable();
 				$table->timestamps();
 			});
 	}
